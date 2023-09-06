@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <!-- Include Bootstrap CSS for styling -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Include custom CSS for additional styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center stopwatch-container">
+            <h1 class="text-center">Stopwatch</h1>
+            <div class="stopwatch-box">
+                <span id="display">00:00:00</span>
+            </div>
+            <div class="text-center mt-4">
+                <button id="startStop" class="btn btn-primary">Start</button>
+                <button id="stop" class="btn btn-danger">Stop</button>
+                <button id="reset" class="btn btn-secondary">Reset</button>
+            </div>
+        </div>
+    </div>
+    <!-- Include custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
